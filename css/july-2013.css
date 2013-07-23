@@ -1,0 +1,26 @@
+body {
+    background: url(../img/july-2013/bg.png) center center no-repeat;
+    background-size: cover;
+}
+
+h1, h2.subheader {
+    color: white;
+    text-shadow: 0 0 0.1em black;
+}
+
+.header {
+    background: url(../img/logo-256.png) center top no-repeat;
+    padding-top: 272px;
+    margin-bottom: 3em;
+}
+
+.page {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 0.1em black;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.sponsors {
+    margin-top: 3em;
+}

@@ -1,0 +1,50 @@
+{% extends "post.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="/css/july-2013.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="header text-center">
+    <h1>A Hackathon for Creative Pythonistas</h1>
+    <h2 class="subheader">Python PH July 2013 Meetup</h2>
+</div>
+
+<div class="page row">
+    <div class="large-8 large-centered columns">
+        <div class="date-venue text-center">
+            <h3>Date and Venue</h3>
+            <ul class="vcard">
+                <li>July 27, 2013 (Saturday)</li>
+                <li>9:00am to 6:00pm</li>
+                <li>Corporate Showroom,</li>
+                <li>Ground Floor of Valero Telepark,</li>
+                <li>Valero Street (behind Smart bldg),</li>
+                <li>Makati City, Metro Manila</li>
+                <li><a href="bit.ly/Map-ValeroTelepark">bit.ly/Map-ValeroTelepark</a></li>
+            </ul>
+            <p>
+                <a href="https://docs.google.com/forms/d/1omyvJf1zztsnW926S5owj9Av-DSyrMK0JsR0_YOEi84/viewform" class="large round button">Register</a>
+            </p>
+        </div>
+
+        {{ post.body }}
+
+        <div class="sponsors text-center">
+            <h3>Proud Sponsors</h3>
+            <div class="row">
+                <div class="large-6 columns">
+                    <img src="/img/july-2013/freelancer.png" alt="Freelancer.com">
+                </div>
+                <div class="large-6 columns">
+                    <img src="/img/july-2013/globelabs.png" alt="Globe Labs">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock %}

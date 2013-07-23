@@ -1,0 +1,10 @@
+*/
+*.html
+
+!_posts/
+!_templates/
+!_templates/*.html
+
+!css/
+!img/
+!js/
